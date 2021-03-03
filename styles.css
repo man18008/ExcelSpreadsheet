@@ -1,0 +1,36 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(173, 204, 214);
+  }
+
+.button {
+    background-color: #2162f0;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: max-content;
+}
+
+a:hover {
+    background-color: #8f8f8f;
+    color: rgb(255, 255, 255);
+}
